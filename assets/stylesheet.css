@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Gill Sans, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  -webkit-box-shadow: 0 1px 10px 0 #777;
+  -moz-box-shadow: 0 1px 10px 0 #777;
+  box-shadow: 0 1px 10px 0 #777;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+main {
+  padding: 0 30px;
+  max-width: 1110px;
+  margin: 25px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  max-width: 100%;
+}
+
+
+section {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid grey;
+}
+
+section:last-child{
+  padding-bottom: 0;
+  border: 0;
+}
+
+.screenshot_shopify {
+  margin-top: 20px;
+  max-width: 100%;
+}
